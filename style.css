@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url('./header.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; /* Removes scrollbars */
+}
+
+.container { /* Make the container cover the full page */
+  width: 100%;
+  height: 100%; /* Can also use Bootstrap class h-100 */
+}
+
+.buffer {
+  height: 9.5rem;
+}
+
+h1 {
+  color: #E2DBDB;
+  font-size: 3rem; /* Size relative to the html document */
+  text-transform: uppercase; /* You can also use the text-uppercase bootstrap class */
+}
+
+hr {
+  background-color: orangered;
+  max-width: 65px;
+  border: 2px solid orangered;
+}
+
+/* Custom CSS class */
+.btn-xl {
+  padding: 1rem 2rem; /* used to generate space around an element's content, inside of any defined borders. Helps with sizing */
+  border: solid orangered;
+  border-radius: 300px;
+  background-color: orangered;
+}
+
+.btn-primary {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  transition: 2s;
+  background-color: orange;
+  border: solid orange;
+  transform: scale(1.3);
+}
